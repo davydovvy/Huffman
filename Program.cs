@@ -11,7 +11,7 @@
         }
 
         // Generate a list with each character in the string and 
-        // number of times we encounter it. Sorted by the number
+        // number of times we encounter it. Sorted by the number.
         private static List<KeyValuePair<char, int>> CharacterFrequency(string str)
         {
             var dict = new Dictionary<char, int>();
